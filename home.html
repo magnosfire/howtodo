@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title> HowToDo </title>
+		<link rel="stylesheet" type="text/css" href="static/css/homecss.css" />
+	</head>
+	<body>
+	    <div class="div-body">
+		    <div class="div-menu">
+			    
+			</div>
+			<div class="div-content">
+			    Porque existe um elemento <img>? Esta não é uma pergunta que você vê todo dia. Obviamente alguém criou ela. Estas coisas não aparecem do nada. Todo elemento, todo atributo, toda funcionalidade da HTML que você já usou alguma vez foi criada por alguém, que decidiu como ela deveria funcionar, e escreveu todo o código. Estas pessoas não são deuses ou invencíveis. São apenas pessoas. Pessoas inteligentes, com certeza. Mas apenas pessoas.
+
+Uma das grandes coisas sobre padrões "abertos" é que você pode voltar no tempo e poder responder esse tipo de perguntas. As discussões ocorrem em listas de emails, que geralmente são arquivadas e podem ser procuradas depois. Então eu decidi fazer um pouco de "arqueologia de email" para tentar responder a seguinte pergunta, "Porque nós temos um elemento <img>?" E eu tive que voltar para antes que uma organização chamada World Wide Web Consortium (W3C) existisse. Eu voltei aos primeiros dias da web, quando você ainda podia contar o número de servidores web com as duas mãos e talvez alguns dedos do pé.
+
+(Tem alguns erros tipográficos nas citações abaixo. Eu decidi deixar eles intactos para manter a precisão histórica)
+
+Em 25 de Fevereiro de 1993 Marc Andreessen escreveu:
+
+Eu gostaria de propor uma nova tag HTML:
+
+IMG
+
+O argumento obrigatório é: SRC="url".
+
+Ela serve para apontar um arquivo bitmap ou pixmap para o navegador interpretar como uma imagem no meio do texto no ponto de ocorrência da tag.
+
+Como exemplo temos:
+
+<IMG SRC="file://foobar.com/foo/bar/blargh.xbm">
+
+(Não há uma tag de fechamento; é uma tag standalone.)
+
+Esta tag pode ser usada como link como qualquer outra coisa; quando isto acontece, ela vira um ícone sensitivo a ativação exatamente como um texto de âncora comum.
+
+Navegadores devem ter flexibilidade para os formatos de imagem que irão suportar. Xbm e Xpm são bons para suportar, por exemplo. Se um navegador não conseguir renderizar o formato dado, ele pode fazer o que quiser (No X Mosaic irá aparecer um bitmap padrão como substituto da imagem).
+
+Isso é uma função necessária no X Mosaic; nós temos isso funcionando, e nós iremos usar internamente pelo menos. Eu estou bastante aberto a sugestões de como isso pode ser feito com HTML; se você tem uma ideia melhor que a minha, por favor me informe. Eu sei que é difícil lidar com formatos de imagem, mas eu não vejo uma alternativa além da que eu acabei de falar "deixe o navegador fazer o que ele consegue" e esperar que a solução perfeita apareça (MIME, um dia, quem sabe)
+
+Xbm e Xpm eram formatos gráficos populares no Unix.
+			</div>
+		</div>
+	</body>
+</html>
