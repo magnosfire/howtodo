@@ -11,19 +11,34 @@ body{
 }
 
 .div-menu{
-    width:3%;
+    width:42px;
 	height:100%;
 	background-color:red;
 	float:left;
 }
 
-.div-menu:hover{
+.div-menu:hover {
     width:10%;
 }
 
-.div-content{
+.div-menu:hover  ~.div-content{
     width:90%;
+}
+
+.div-menu:hover  .div-button{
+    width:100%;
+}
+
+.div-content{
+    width:97%;
 	height:100%;
 	background-color:gray;
 	float:left;
+}
+
+.div-button{
+    background-color:white;
+	border-bottom:black 1px solid;
+	height:7%;
+	width:42px;
 }
